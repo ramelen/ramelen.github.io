@@ -5,6 +5,9 @@
         <title>a-game</title>
     </head>
     <body>
+        <script>
+            var rocks = 0
+        </script>
         <p>
             hey
             <br>my name's masterpeanut
@@ -15,11 +18,13 @@
             <br><button type="button" id="button00" onclick="alert('i wish i could do something more than just be a popup') ">im a button</button>
             <br>or two
             <br><button type="button" id="button01" onclick="addRocks()">im also a button</button>
+            <br>or <span id="rocks"></span>
         </p>
 <script>
 function addRocks() {
     var newRocks = 0
-    oldRocks += newRocks
+    rocks += newRocks
+    document.getElementById("rocks").innerHTML = rocks
 }
 </script>
     </body>
