@@ -17,7 +17,8 @@
             <br>have a button
             <br><button type="button" id="button00" onclick="alert('i wish i could do something more than just be a popup') ">im a button</button>
             <br>or two
-            <br><button type="button" id="button01" onclick="addItem('rocks', 1)">im also a button</button>
+            <br>
+                <button type="button" id="button01" onclick="addItem('rocks', 1); document.getElementById('rocks').innerHTML = inv[rocks];">im also a button</button>
             <br>oh hey
             <br>you found some rocks
             <br>you have <span id="rocks">no</span> rocks
