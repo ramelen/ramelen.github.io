@@ -26,7 +26,7 @@
         </p>
 <script>
 function addItem(name, quantity) {
-    if inv.hasOwnProperty(name) {
+    if (inv.hasOwnProperty(name)) {
         inv[name] += quantity
     } else {
         inv[name] = quantity
