@@ -5,7 +5,6 @@
         <title>a-game</title>
     </head>
     <body>
-        button.link { background:none; border:none; }
         <script>
             var inv = {}
         </script>
@@ -24,7 +23,7 @@
             <br>you found some rocks
             <br>you have <span id="rocks">no</span> rocks
             <br>what will you do with them
-            <br><button class="link">this text is clickable</button>
+            <br><div id="text" onClick="addItem('rocks', 1)">this text is clickable</div>
         </p>
 <script>
 function addItem(name, quantity) {
