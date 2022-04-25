@@ -1,5 +1,12 @@
 body{
-    background-color:black;
-    color:white;
-    font-family:lucida console;
+  background-color:black;
+  color:white;
+  font-family:lucida console;
 }
+
+a:link, a:visited {
+  padding: 3px;
+	color: white;
+  text-decoration: none;
+}
+a:hover, a:active {background-color: #404040}
