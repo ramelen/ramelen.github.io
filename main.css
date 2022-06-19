@@ -1,12 +1,7 @@
-body{
+*{
   background-color:black;
   color:white;
   font-family:lucida console;
-}
-#console {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 a:link, a:visited {
   padding: 3px;
