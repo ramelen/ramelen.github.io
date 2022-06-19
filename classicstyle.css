@@ -1,0 +1,153 @@
+#sectionControls
+{
+	position:absolute;
+	top:5px;
+	margin-left:58px;
+}
+#beach
+{
+	z-index:10;
+}
+.beachninjawarning
+{
+	border-color:#F00;
+}
+.beachongwarning
+{
+	border-color:#FF0;
+}
+.beachstreakextend
+{
+	border-color:#00F;
+}
+.beachriftwarning
+{
+	border-color:#F0F;
+}
+.beachsafe
+{
+	border-color:#0F0;
+}
+#exporttext
+{
+	width:540px;
+	height:395px;
+}
+#sectionStats
+{
+	min-height:350px;
+}
+.statsTab
+{
+	position:absolute;
+	width:290px;
+	min-height:350px;
+}
+#sectionLog
+{
+	top:0px;
+	margin-left:300px;
+	height:350px;
+	width:280px;
+	display: block;
+	overflow-x:hidden;
+	position: relative;
+	-webkit-touch-callout: auto;
+	-webkit-user-select: auto;
+	-khtml-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+}
+#sectionLogBody
+{
+	height: 311px;
+}
+#logItems
+{
+	overflow-y: auto;
+	position:absolute;
+	bottom:25px;
+	max-height: 311px;
+	padding-bottom:1px;
+}
+#sectionTop
+{
+	width:600px;
+	position:absolute;
+}
+#sectionLeft
+{
+	overflow:hidden;
+	min-width:595px;
+	overflow: visible;
+	margin-left:10px;
+	margin-top:60px;
+}
+#sectionBeach
+{
+	max-width:560px;
+	margin-left:10px;
+	overflow:hidden;
+	position:relative;
+}
+#inventory
+{
+	margin:10px;
+	margin-left:600px;
+	height:541px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+
+}
+#inventory.force3columns
+{
+	min-width:440px;
+}
+#sectionMainStats
+{
+	margin:10px
+}
+#sectionCounts
+{
+}
+#sectionTime
+{
+}
+#shop
+{
+	margin: 20px;
+	margin-top:30px;
+	border-width: 1px;
+	border-style: solid;
+}
+#clockwrapper{
+	position:absolute;
+}
+.floatbox{
+	width:150px;
+	margin:10px;
+}
+#temporalRift {
+    z-index: 99999999;
+    vertical-align: bottom;
+}
+.hidden {
+	display:none;
+}
+.unhidden {
+	display:block;
+}
+.sectoverview {
+	height:395px;
+}
+.controlbox {
+	min-width:40px;
+}
+#DragonOverviewMainBody {
+	height:295px;
+	width:560px;
+}
+#lootSearchBox {
+	box-sizing: border-box;
+}

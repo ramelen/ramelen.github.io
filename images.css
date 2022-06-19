@@ -1,0 +1,300 @@
+.boost.shop .boost_generic
+{
+	background-image:url('img/boost_grey_icon.png');
+}
+body.darkscheme .boost.loot .boost_generic
+{
+	background-image:url('img/boost_dark_icon.png');
+}
+body.lightscheme .boost.loot .boost_generic
+{
+	background-image:url('img/boost_light_icon.png');
+}
+.badge.shop .badge_generic
+{
+	background-image:url('img/badge_grey_icon.png');
+}
+body.darkscheme .badge.loot .badge_generic
+{
+	background-image:url('img/badge_light_icon.png');
+}
+body.lightscheme .badge.loot .badge_generic
+{
+	background-image:url('img/badge_dark_icon.png');
+}
+body.darkscheme .tool .icon.redacted, body.darkscheme .badge.loot .icon.redacted, body.lightscheme .boost.loot .icon.redacted
+{
+	background-image:url('img/redacted_light_icon.png');
+}
+body.lightscheme .tool .icon.redacted,  body.lightscheme .badge.loot .icon.redacted, body.darkscheme .boost.loot .icon.redacted
+{
+	background-image:url('img/redacted_dark_icon.png');
+}
+.boost.shop .icon.redacted, .badge.shop .icon.redacted
+{
+	background-image:url('img/redacted_grey_icon.png');
+}
+
+body.darkscheme.heresy .boost.loot.toggle, body.lightscheme.heresy .boost.shop.toggle, body.lightscheme.heresy .badge.toggle:hover,
+body.darkscheme.heresy  .boost.redacted-area.toggle, body.lightscheme.heresy  .badge.redacted-area.toggle:hover
+{
+	background-color:#d0d0e8;
+}
+body.lightscheme.heresy .boost.loot.toggle, body.darkscheme.heresy .boost.shop.toggle, body.darkscheme.heresy .badge.toggle:hover,
+body.lightscheme.heresy  .boost.redacted-area.toggle, body.darkscheme.heresy  .badge.redacted-area.toggle:hover
+{
+	background-color:#224;
+}
+
+body.darkscheme.heresy .boost.loot.toggle:hover, body.lightscheme.heresy .boost.shop.toggle:hover, body.lightscheme.heresy .badge.toggle,
+body.darkscheme.heresy  .boost.redacted-area.toggle:hover, body.darkscheme.heresy  .badge.redacted-area.toggle
+{
+	background-color:#d8d8ff;
+}
+body.lightscheme.heresy .boost.loot.toggle:hover, body.darkscheme.heresy .boost.shop.toggle:hover, body.darkscheme.heresy .badge.toggle,
+body.lightscheme.heresy  .boost.redacted-area.toggle:hover, body.darkscheme.heresy  .badge.redacted-area.toggle
+{
+	background-color:#0a0a20;
+}
+
+body.darkscheme.heresy .boost.loot.alert, body.lightscheme.heresy .boost.shop.alert, body.lightscheme.heresy .badge.alert:hover,
+body.darkscheme.heresy  .boost.redacted-area.alert, body.lightscheme.heresy  .badge.redacted-area.alert:hover
+{
+	background-color:#fdd;
+}
+body.lightscheme.heresy .boost.loot.alert, body.darkscheme.heresy .boost.shop.alert, body.darkscheme.heresy .badge.alert:hover,
+body.lightscheme.heresy  .boost.redacted-area.alert, body.darkscheme.heresy  .badge.redacted-area.alert:hover
+{
+	background-color:#522;
+}
+
+body.darkscheme.heresy .boost.loot.alert:hover, body.lightscheme.heresy .boost.shop.alert:hover, body.lightscheme.heresy .badge.alert,
+body.darkscheme.heresy  .boost.redacted-area.alert:hover, body.lightscheme.heresy  .badge.redacted-area.alert
+{
+	background-color:#FFF2F2;
+}
+body.lightscheme.heresy .boost.loot.alert:hover, body.darkscheme.heresy .boost.shop.alert:hover, body.darkscheme.heresy .badge.alert,
+body.lightscheme.heresy  .boost.redacted-area.alert:hover, body.darkscheme.heresy  .badge.redacted-area.alert
+{
+	background-color:#200b0b;
+}
+
+body.darkscheme.heresy .boost.loot.action, body.lightscheme.heresy .boost.shop.action, body.lightscheme.heresy .badge.action:hover,
+body.darkscheme.heresy  .boost.redacted-area.action, body.lightscheme.heresy  .badge.redacted-area.action:hover
+{
+	background-color:#ffd;
+}
+body.lightscheme.heresy .boost.loot.action, body.darkscheme.heresy .boost.shop.action, body.darkscheme.heresy .badge.action:hover,
+body.lightscheme.heresy  .boost.redacted-area.action, body.darkscheme.heresy  .badge.redacted-area.action:hover
+{
+	background-color:#552;
+}
+
+body.darkscheme.heresy .boost.loot.action:hover, body.lightscheme.heresy .boost.shop.action:hover, body.lightscheme.heresy .badge.action,
+body.darkscheme.heresy  .boost.redacted-area.action:hover, body.lightcheme.heresy  .badge.redacted-area.action
+{
+	background-color:#FFFFF2;
+}
+body.lightscheme.heresy .boost.loot.action:hover, body.darkscheme.heresy .boost.shop.action:hover, body.darkscheme.heresy .badge.action,
+body.lightscheme.heresy  .boost.redacted-area.action:hover, body.darkscheme.heresy  .badge.redacted-area.action
+{
+	background-color:#20200b;
+}
+
+body.darkscheme.heresy #redacteditem.castle.shop.alert, body.darkscheme.heresy .castle.redacted-area.alert
+{
+	background-color:#181838
+}
+body.lightscheme.heresy #redacteditem.castle.shop.alert, body.lightscheme.heresy .castle.redacted-area.alert
+{
+	background-color:#d8d8f0
+}
+body.darkscheme.heresy #redacteditem.castle.shop.action, body.darkscheme.heresy .castle.redacted-area.action
+{
+	background-color:#522
+}
+body.lightscheme.heresy #redacteditem.castle.shop.action, body.lightscheme.heresy .castle.redacted-area.action
+{
+	background-color:#fdd
+}
+body.darkscheme.heresy #redacteditem.castle.shop.toggle, body.darkscheme.heresy .castle.redacted-area.toggle
+{
+	background-color:#552
+}
+body.lightscheme.heresy #redacteditem.castle.shop.toggle, body.lightscheme.heresy .castle.redacted-area.toggle
+{
+	background-color:#ffd
+}
+body.darkscheme.heresy #redacteditem.sand.shop.alert, body.darkscheme.heresy .sand.redacted-area.alert
+{
+	background-color:#101038
+}
+body.lightscheme.heresy #redacteditem.sand.shop.alert, body.lightscheme.heresy .sand.redacted-area.alert
+{
+	background-color:#e0e0ff
+}
+body.darkscheme.heresy #redacteditem.sand.shop.action, body.darkscheme.heresy .sand.redacted-area.action
+{
+	background-color:#5f1818
+}
+body.lightscheme.heresy #redacteditem.sand.shop.action, body.lightscheme.heresy .sand.redacted-area.action
+{
+	background-color:#ffd8d8
+}
+body.darkscheme.heresy #redacteditem.sand.shop.toggle, body.darkscheme.heresy .sand.redacted-area.toggle
+{
+	background-color:#5f5f18
+}
+body.lightscheme.heresy #redacteditem.sand.shop.toggle, body.lightscheme.heresy .sand.redacted-area.toggle
+{
+	background-color:#ffffd8
+}
+body.lightscheme .badge.loot #badge_discov.icon
+{
+	background-image:url('img/badge_discovery_dark_icon.png');
+}
+body.darkscheme .badge.loot #badge_discov.icon
+{
+	background-image:url('img/badge_discovery_light_icon.png');
+}
+.darkscheme .loot #boost
+{
+	background-image:url('img/boost_dark_icon.png');
+}
+.lightscheme .loot #boost
+{
+	background-image:url('img/boost_light_icon.png');
+}
+.darkscheme .loot #stuff
+{
+	background-image:url('img/stuff_dark_icon.png');
+}
+.lightscheme .loot #stuff
+{
+	background-image:url('img/stuff_light_icon.png');
+}
+.darkscheme .loot #badges
+{
+	background-image:url('img/badge_light_icon.png');
+}
+.lightscheme .loot #badges
+{
+	background-image:url('img/badge_dark_icon.png');
+}
+#badgesAv
+{
+	background-image:url('img/badge_grey_icon.png');
+}
+.darkscheme .loot #ninjutsu
+{
+	background-image:url('img/ninjutsu_dark_icon.png');
+}
+
+.lightscheme .loot #ninjutsu
+{
+	background-image:url('img/ninjutsu_light_icon.png');
+}
+.darkscheme .loot #cybernetics
+{
+	background-image:url('img/cybernetics_dark_icon.png');
+}
+.lightscheme .loot #cybernetics
+{
+	background-image:url('img/cybernetics_light_icon.png');
+}
+.darkscheme .loot #hillpeopletech
+{
+	background-image:url('img/hillpeopletech_dark_icon.png');
+}
+.lightscheme .loot #hillpeopletech
+{
+	background-image:url('img/hillpeopletech_light_icon.png');
+}
+.darkscheme .loot #beanietech
+{
+	background-image:url('img/beanietech_dark_icon.png');
+}
+.lightscheme .loot #beanietech
+{
+	background-image:url('img/beanietech_light_icon.png');
+}
+.darkscheme .loot #chronotech
+{
+	background-image:url('img/chronotech_dark_icon.png');
+}
+.lightscheme .loot #chronotech
+{
+	background-image:url('img/chronotech_light_icon.png');
+}
+.darkscheme .loot #glassceiling12
+{
+	background-image:url('img/boost_glassceiling12_dark_icon.png');
+}
+.lightscheme .loot #glassceiling12
+{
+	background-image:url('img/boost_glassceiling12_light_icon.png');
+}
+.darkscheme .loot #draconic
+{
+	background-image:url('img/draconic_dark_icon.png');
+}
+.lightscheme .loot #draconic
+{
+	background-image:url('img/draconic_light_icon.png');
+}
+.darkscheme .loot #prizes
+{
+	background-image:url('img/prizes_dark_icon.png');
+}
+.lightscheme .loot #prizes
+{
+	background-image:url('img/prizes_light_icon.png');
+}
+.darkscheme .loot .badge_badge
+{
+	background-image:url('img/badge_badge_light_icon.png');
+}
+.lightscheme .loot .badge_badge
+{
+	background-image:url('img/badge_badge_dark_icon.png');
+}
+.darkscheme .shop .badge_badge
+{
+	background-image:url('img/badge_badge_grey_icon.png');
+}
+.lightscheme .shop .badge_badge
+{
+	background-image:url('img/badge_badge_grey_icon.png');
+}
+.darkscheme .loot #discov, .darkscheme .loot .badge_discov
+{
+	background-image:url('img/badge_discovery_light_icon.png');
+}
+.lightscheme .loot #discov, .lightscheme .loot .badge_discov
+{
+	background-image:url('img/badge_discovery_dark_icon.png');
+}
+.darkscheme .loot #sandmonument, .darkscheme .loot .badge_sandmonument
+{
+	background-image:url('img/sandmonument_light_icon.png');
+}
+.lightscheme .loot #sandmonument, .lightscheme .loot .badge_sandmonument
+{
+	background-image:url('img/sandmonument_dark_icon.png');
+}
+.darkscheme .loot #glassmonument, .darkscheme .loot .badge_glassmonument
+{
+	background-image:url('img/glassmonument_light_icon.png');
+}
+.lightscheme .loot #glassmonument, .lightscheme .loot .badge_glassmonument
+{
+	background-image:url('img/glassmonument_dark_icon.png');
+}
+.darkscheme .loot #tagged
+{
+	background-image:url('img/tagged_dark_icon.png');
+}
+.lightscheme .loot #tagged
+{
+	background-image:url('img/tagged_light_icon.png');
+}

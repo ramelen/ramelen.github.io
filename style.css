@@ -1,0 +1,376 @@
+html,body
+{
+	height:100%;
+}
+
+#sectionControls
+{
+	position:absolute;
+	top:40px;
+	margin:10px;
+}
+#devtweets
+{
+	margin-left:20px;
+}
+#sectionBeach
+{
+	overflow: hidden;
+}
+.beachninjawarning
+{
+	border-color:#A22;
+}
+.beachritualwarning
+{
+	border-color:#2AA;
+}
+.beachongwarning
+{
+	border-color:#AA2;
+}
+.beachstreakextend
+{
+	border-color:#22A;
+}
+.beachriftwarning
+{
+	border-color:#A2A;
+}
+.beachsafe
+{
+	border-color:#2A2;
+}
+#sectionStatsBody
+{
+	min-height:45px;
+	min-width:85px;
+}
+#sectionViewBody
+{
+	height:40px;
+	min-height:40px;
+	min-width:68px;
+}
+#sectionFileBody
+{
+	height:40px;
+	min-height:40px;
+	min-width:68px;
+}
+#sectionOptionsBody
+{
+	height:50px;
+	min-height:40px;
+	min-width:68px;
+}
+#sectionExportBody
+{
+	height:250px;
+	min-height:180px;
+	min-width:180px;
+}
+.statsTab
+{
+	position:absolute;
+	width:290px;
+	min-height:350px;
+}
+#sectionLog
+{
+	-webkit-touch-callout: auto;
+	-webkit-user-select: auto;
+	-khtml-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+}
+#logItems
+{
+	position:absolute;
+	bottom:24px;
+	max-height:calc(100% - 40px);
+	padding-bottom:1px;
+	height:auto;
+}
+
+#beachAnchor
+{
+	max-width:600px;
+	margin:5px;
+	display: inline-block;
+}
+
+.toolwrapper
+{
+	min-height:90px;
+	max-height:1100px;
+	min-width:188px;
+	max-width:1100px;
+}
+
+#lootSelection
+{
+	padding: 10px;
+	height:150px;
+	width:inherit;
+}
+
+#lootNavigation
+{
+	padding: 10px;
+}
+
+#navLimit, #navButtons
+{
+	display: inline;
+	vertical-align: middle;
+}
+
+#navButtons, #searchButtons
+{
+	float: right;
+}
+#sectionMainStats
+{
+}
+#sectionShopBody
+{
+	padding: 5px;
+	height:100px;
+	min-height:100px;
+	min-width:170px;
+}
+
+#clockface {
+	background-color:White;
+	background-image:url('img/clockface.png');
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	z-index:30;
+}
+
+
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	display: block;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.ui-resizable-n {
+	cursor: n-resize;
+	height: 7px;
+	width: 100%;
+	top: -5px;
+	left: 0;
+}
+.ui-resizable-s {
+	cursor: s-resize;
+	height: 7px;
+	width: 100%;
+	bottom: -5px;
+	left: 0;
+}
+.ui-resizable-e {
+	cursor: e-resize;
+	width: 7px;
+	right: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-w {
+	cursor: w-resize;
+	width: 7px;
+	left: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-se {
+	cursor: se-resize;
+	width: 12px;
+	height: 12px;
+	right: 1px;
+	bottom: 1px;
+}
+.ui-resizable-sw {
+	cursor: sw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	bottom: -5px;
+}
+.ui-resizable-nw {
+	cursor: nw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	top: -5px;
+}
+.ui-resizable-ne {
+	cursor: ne-resize;
+	width: 9px;
+	height: 9px;
+	right: -5px;
+	top: -5px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+	background-image: url(https://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+
+
+.floatbox{
+	margin:5px;
+	width:145px;
+}
+.navbaritem{
+	vertical-align: top;
+	min-width:48px;
+	min-height:20px;
+	margin:5px;
+	border-width: 1px;
+	border-style: solid;
+	text-align:center;
+	padding: 4px;
+}
+.infobox
+{
+	width:161px;
+	margin:10px;
+}
+
+.resizable-element
+{
+	min-width:40px;
+	min-height:10px;
+}
+.draggable-element
+{
+	position:absolute;
+	border-width: 1px;
+	border-style: solid;
+}
+.editlock
+{
+	border-style: none;
+}
+.table-wrapper
+{
+	overflow:hidden;
+	width:auto;
+	height:auto;
+}
+.table-header /*probably don't need this after all but might as well keep it on the relevant elements just in case*/
+{
+}
+.table-footer
+{
+}
+.table-content-wrapper
+{
+    height: 100%;
+    width: 100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.table-content
+{
+    height: 100%; 
+    width: 100%;
+}
+.depressed
+{
+	border-width:2px;
+}
+body.lightscheme .depressed
+{
+	background-color:#ddd;
+}
+body.darkscheme .depressed
+{
+	background-color:#383838;
+}
+.ui-border-color-button
+{
+	background-color: #999;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #999;
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	display: block;
+	top: 7px;
+	left: 7px;
+}
+.borderActive
+{
+	border: 1px solid;
+}
+.bordercolor1
+{
+	border-color: #FFFFFF;
+}
+.bordercolor2
+{
+	border-color: #000000;
+}
+.bordercolor3
+{
+	border-color: #FF0000;
+}
+.bordercolor4
+{
+	border-color: #00FF00;
+}
+.bordercolor5
+{
+	border-color: #0000FF;
+}
+.bordercolor6
+{
+	border-color: #FF9000;
+}
+.bordercolor7
+{
+	border-color: #FFF000;
+}
+.bordercolor8
+{
+	border-color: #9000FF;
+}
+.bordercolor9
+{
+	border-color: #FF00F0;
+}
+.bordercolor10
+{
+	border-color: #00FFF0;
+}
+.hidden
+{
+	display:none;
+}
+.unhidden
+{
+	display:block;
+}
+body.lightscheme .sectionLayout {
+	z-index:10;
+	background-color:white;
+	padding:10px;
+}
+body.darkscheme .sectionLayout  {
+	z-index:10;
+	background-color:black;
+	padding:10px;
+}
