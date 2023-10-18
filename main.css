@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jetbrainsmono/v18/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwgknk-4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/jetbrainsmono/v18/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwgknk-4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v23/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW-AJi8SJQt.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotomono/v23/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --bg: var(--700);
+    --fg: var(--722);
+    --w: 80ch;
+}
+
+body {
+    background-color: var(--bg);
+    margin: 0 1ch;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    color: var(--fg);
+    overflow-wrap: anywhere;
+}
+
+
+div.content {
+    width: var(--w);
+    margin: auto;
+    /* background-image: url("square.png"); */
+    background-size: 1ch 2.209ch;
+}
+
+p {
+    margin: 2.209ch 0;
+}
+
+a:hover {
+    background-color: var(--fg);
+    color: var(--bg);
+}
+
+a {
+    text-decoration: underline 1px;
+    color: var(--fg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0 2ch 0 0;
+    text-align: right;
+}
+
+td.left {
+    text-align: left;
+}
+
+pre {
+    font-family: 'Roboto Mono';
+    margin: 0;
+}
+
+h1 {
+    font-size: 100%;
+    color: var(--sf);
+    margin: 2.209ch 0;
+}
+
+#motd {
+    width: 63ch;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 100%;
+    color: var(--sf);
+    margin: 0;
+}
+
+#banner {
+    text-align: center
+}
+
+div.twosplit {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.twosplit * {
+    width: 39ch;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0;
+}
+
+::selection {
+    background: var(--fg);
+    color: var(--bg);
+}
+
+:root {
+    --000: #171314;
+    --010: #180c10;
+    --020: #1a050c;
+    --030: #1c0009;
+    --001: #5f5457;
+    --011: #613c47;
+    --021: #63253c;
+    --031: #660033;
+    --002: #ac9a9f;
+    --012: #ad6f82;
+    --022: #af476d;
+    --032: #b0005c;
+    --003: #ffe6ec;
+    --013: #ffa6c1;
+    --023: #ff6ca1;
+    --033: #ff0088;
+    --100: #171313;
+    --110: #190c0a;
+    --120: #1a0604;
+    --130: #1c0000;
+    --101: #5f5553;
+    --111: #613d37;
+    --121: #64271e;
+    --131: #670300;
+    --102: #ac9a97;
+    --112: #ad7066;
+    --122: #af4a3c;
+    --132: #b10b00;
+    --103: #ffe6e2;
+    --113: #ffa899;
+    --123: #ff6f5b;
+    --133: #ff1500;
+    --200: #171412;
+    --210: #181009;
+    --220: #190c03;
+    --230: #1a0900;
+    --201: #5f5751;
+    --211: #604834;
+    --221: #623d1d;
+    --231: #633400;
+    --202: #ac9f95;
+    --212: #ad8362;
+    --222: #ae7039;
+    --232: #ae6000;
+    --203: #ffedde;
+    --213: #ffc494;
+    --223: #ffa759;
+    --233: #ff9000;
+    --300: #171512;
+    --310: #171309;
+    --320: #181203;
+    --330: #181100;
+    --301: #5e5b51;
+    --311: #5f5434;
+    --321: #604f1d;
+    --331: #614b00;
+    --302: #aca595;
+    --312: #ac9862;
+    --322: #ad8f3a;
+    --332: #ad8900;
+    --303: #fff6de;
+    --313: #ffe295;
+    --323: #ffd55a;
+    --333: #ffcb00;
+    --400: #151612;
+    --410: #131709;
+    --420: #121703;
+    --430: #121700;
+    --401: #5b5e52;
+    --411: #555e37;
+    --421: #525f1f;
+    --431: #505f00;
+    --402: #a6ab97;
+    --412: #9bac67;
+    --422: #95ac40;
+    --432: #92ac00;
+    --403: #f7ffe1;
+    --413: #e7ff9c;
+    --423: #deff62;
+    --433: #d9ff00;
+    --500: #131614;
+    --510: #0b170e;
+    --520: #051809;
+    --530: #001806;
+    --501: #545e56;
+    --511: #3c5f43;
+    --521: #256035;
+    --531: #006029;
+    --502: #9bab9d;
+    --512: #70ac7d;
+    --522: #48ac64;
+    --532: #00ad4f;
+    --503: #e7ffeb;
+    --513: #a9ffbb;
+    --523: #6eff97;
+    --533: #00ff78;
+    --600: #121616;
+    --610: #091714;
+    --620: #041714;
+    --630: #001813;
+    --601: #525e5b;
+    --611: #375f57;
+    --621: #205f55;
+    --631: #006053;
+    --602: #96aba6;
+    --612: #67ac9e;
+    --622: #40ac9a;
+    --632: #00ac97;
+    --603: #e0fff8;
+    --613: #9bffeb;
+    --623: #62ffe5;
+    --633: #00ffe1;
+    --700: #121617;
+    --710: #091518;
+    --720: #031518;
+    --730: #001519;
+    --701: #525c5e;
+    --711: #365960;
+    --721: #1f5760;
+    --731: #005661;
+    --702: #96a8ac;
+    --712: #65a2ac;
+    --722: #3d9dad;
+    --732: #009aad;
+    --703: #dffaff;
+    --713: #98efff;
+    --723: #5fe9ff;
+    --733: #00e4ff;
+    --800: #131517;
+    --810: #0a1218;
+    --820: #04101a;
+    --830: #000f1b;
+    --801: #53595f;
+    --811: #374f61;
+    --821: #1f4863;
+    --831: #004264;
+    --802: #97a3ac;
+    --812: #6690ad;
+    --822: #3d81ae;
+    --832: #0076af;
+    --803: #e1f2ff;
+    --813: #99d5ff;
+    --823: #5dbfff;
+    --833: #00aeff;
+    --900: #131417;
+    --910: #0b0e19;
+    --920: #04081c;
+    --930: #010020;
+    --901: #54575f;
+    --911: #394362;
+    --921: #202d66;
+    --931: #0e006d;
+    --902: #9a9fac;
+    --912: #697aae;
+    --922: #3d52b0;
+    --932: #1f00b5;
+    --903: #e5ecff;
+    --913: #9db5ff;
+    --923: #5b7aff;
+    --933: #3000ff;
+    --A00: #151417;
+    --A10: #110d19;
+    --A20: #0f061b;
+    --A30: #0c001e;
+    --A01: #59565f;
+    --A11: #4c4161;
+    --A21: #422965;
+    --A31: #39006a;
+    --A02: #a29dac;
+    --A12: #8a76ad;
+    --A22: #764daf;
+    --A32: #6500b2;
+    --A03: #f1eaff;
+    --A13: #ccb0ff;
+    --A23: #ad74ff;
+    --A33: #9301ff;
+    --B00: #171416;
+    --B10: #180d17;
+    --B20: #1a0618;
+    --B30: #1b001a;
+    --B01: #5e565d;
+    --B11: #60405d;
+    --B21: #62295f;
+    --B31: #650061;
+    --B02: #ac9daa;
+    --B12: #ad76a7;
+    --B22: #ae4ea8;
+    --B32: #af00aa;
+    --B03: #ffeafc;
+    --B13: #ffb0f7;
+    --B23: #ff76f6;
+    --B33: #ff00f7;
+}
