@@ -14,7 +14,7 @@
     src: url(https://fonts.gstatic.com/s/robotomono/v23/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
+G
 :root {
     --bg: var(--Dark-0);
     --fg: var(--Light-3);
@@ -47,7 +47,7 @@ a:hover {
 
 a {
     text-decoration: underline 1px;
-    color: var(--fg);
+    color: inherit;
 }
 
 ul {
@@ -62,11 +62,21 @@ table {
 
 td {
     padding: 0 2ch 0 0;
-    text-align: right;
 }
 
-td.left {
+td.date {
+    text-align: right;
+    color: var(--Blue-2);
+}
+
+td.subject {
+    text-align: right;
+    color: var(--Cyan-2);
+}
+
+td.title {
     text-align: left;
+    color: var(--Yellow-2);
 }
 
 pre {
@@ -132,59 +142,59 @@ h3 {
 }
 
 :root {
-/* Pastelram color palette */
+    /* Pastelram color palette */
 
-/* Dark */
---Dark-0: #242f3d;
---Dark-1: #303b4a;
---Dark-2: #3d4958;
---Dark-3: #4a5666;
+    /* Dark */
+    --Dark-0: #242f3d;
+    --Dark-1: #303b4a;
+    --Dark-2: #3d4958;
+    --Dark-3: #4a5666;
 
-/* Light */
---Light-0: #cdd7e3;
---Light-1: #d6dfeb;
---Light-2: #dee7f4;
---Light-3: #e6effc;
+    /* Light */
+    --Light-0: #cdd7e3;
+    --Light-1: #d6dfeb;
+    --Light-2: #dee7f4;
+    --Light-3: #e6effc;
 
-/* Grey */
---Grey-0: #667383;
---Grey-1: #8390a1;
---Grey-2: #a1afc1;
---Grey-3: #c1cfe2;
+    /* Grey */
+    --Grey-0: #667383;
+    --Grey-1: #8390a1;
+    --Grey-2: #a1afc1;
+    --Grey-3: #c1cfe2;
 
-/* Red */
---Red-0: #985f63;
---Red-1: #b87c80;
---Red-2: #d99b9f;
---Red-3: #fbbabe;
+    /* Red */
+    --Red-0: #985f63;
+    --Red-1: #b87c80;
+    --Red-2: #d99b9f;
+    --Red-3: #fbbabe;
 
-/* Green */
---Green-0: #5e7c4f;
---Green-1: #7b9a6b;
---Green-2: #9ab989;
---Green-3: #b9d9a8;
+    /* Green */
+    --Green-0: #5e7c4f;
+    --Green-1: #7b9a6b;
+    --Green-2: #9ab989;
+    --Green-3: #b9d9a8;
 
-/* Yellow */
---Yellow-0: #8b6b3d;
---Yellow-1: #aa895a;
---Yellow-2: #caa878;
---Yellow-3: #ebc797;
+    /* Yellow */
+    --Yellow-0: #8b6b3d;
+    --Yellow-1: #aa895a;
+    --Yellow-2: #caa878;
+    --Yellow-3: #ebc797;
 
-/* Blue */
---Blue-0: #53749d;
---Blue-1: #7092bd;
---Blue-2: #8eb1dd;
---Blue-3: #add1ff;
+    /* Blue */
+    --Blue-0: #53749d;
+    --Blue-1: #7092bd;
+    --Blue-2: #8eb1dd;
+    --Blue-3: #add1ff;
 
-/* Magenta */
---Magenta-0: #826490;
---Magenta-1: #a181af;
---Magenta-2: #c0a0cf;
---Magenta-3: #e1c0f0;
+    /* Magenta */
+    --Magenta-0: #826490;
+    --Magenta-1: #a181af;
+    --Magenta-2: #c0a0cf;
+    --Magenta-3: #e1c0f0;
 
-/* Cyan */
---Cyan-0: #327f7f;
---Cyan-1: #529e9d;
---Cyan-2: #72bdbd;
---Cyan-3: #92dedd;
+    /* Cyan */
+    --Cyan-0: #327f7f;
+    --Cyan-1: #529e9d;
+    --Cyan-2: #72bdbd;
+    --Cyan-3: #92dedd;
 }
